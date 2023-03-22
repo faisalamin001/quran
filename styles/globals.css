@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Uthmanic';
+  src: url('../assets/fonts/UthmanicHafs1Ver18.ttf');
+}
+@font-face {
+  font-family: 'Bismillah';
+  src: url('../assets/fonts/Scheherazade-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Noto';
+  src: url('../assets/fonts/NotoNastaliqUrdu-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Kitab';
+  src: url('//cdn.alquran.cloud/public/fonts/Kitab-Regular.ttf');
+}
