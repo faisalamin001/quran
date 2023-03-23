@@ -14,8 +14,6 @@ function Surah() {
     `${process.env.NEXT_PUBLIC_BASE_URL}/surah/${surahNumber}`
   );
 
-  let str = 'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ';
-
   const nextSurah = () => {
     setsurahNumber(parseInt(surahNumber) + 1);
   };
@@ -141,10 +139,7 @@ function Surah() {
             data?.data?.ayahs?.map((item) => {
               return (
                 <p className='  text-4xl font-bismillah leading-normal  '>
-                  {item.text.replace(
-                    'بِسۡمِ ٱللَّهِ ٱلرَّحۡمَـٰنِ ٱلرَّحِیمِ',
-                    ''
-                  )}
+                  {item.text}
                   <span className='text-sm  m-4 rounded-full px-1 border-dashed border border-black dark:border-white'>
                     {item.numberInSurah}
                   </span>{' '}
