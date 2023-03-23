@@ -88,17 +88,7 @@ export const Sidebar = () => {
                 />
               </Switch>
             </li>
-            {/* <li className='my-8 flex justify-between align-middle '>
-              <p>Font size</p>
-              <div className='font-bold -mr-3 dark:text-white text-white'>
-                <button className=' bg-gray-600  hover:bg-gray-900 rounded-full  px-3 py-1 mr-2 mb-2 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 '>
-                  +
-                </button>
-                <button className=' bg-gray-600 hover:bg-gray-900 rounded-full  px-3 py-1 mr-2 mb-2 dark:bg-gray-700 dark:hover:bg-gray-600 dark:focus:ring-gray-700 '>
-                  -
-                </button>
-              </div>
-            </li> */}
+            
             <li className='my-8 flex justify-between align-middle items-center '>
               <p>Report a problem</p>
               <Link href='mailto:faysalamin001@gmail.com?subject=Problem&body=HelloFaisal!'>
